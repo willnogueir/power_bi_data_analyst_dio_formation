@@ -1,4 +1,4 @@
-# 📑 Financials Report - Módulo 03
+# 📑 Financials Report - Módulo 02
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-FFB900?style=for-the-badge&logo=power-bi&logoColor=white)
 ![Business](https://img.shields.io/badge/Business%20Intelligence-Sales%20%26%20Revenue-blue?style=for-the-badge)
@@ -37,7 +37,7 @@ O relatório traz insights sobre:
 
 ## 📂 Estrutura do Repositório
 ```bash
-modulo_03/
+modulo_02/
 │── Desafio de Projeto - Financial Report.pbix # Relatório editável no Power BI
 │── Desafio de Projeto - Financial Report.pdf # Versão estática para visualização
 │── README.md                # Documentação principal
