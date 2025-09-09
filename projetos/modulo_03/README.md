@@ -118,7 +118,7 @@ ADD CONSTRAINT fk_project_works_on FOREIGN KEY (Pno) REFERENCES project(Pnumber)
 
 ALTER TABLE dependent
 ADD CONSTRAINT fk_dependent FOREIGN KEY (Essn) REFERENCES employee(Ssn);
-
+```
 
 ## 3. Conexão com o Power BI
 
