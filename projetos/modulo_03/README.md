@@ -179,6 +179,9 @@ As relações entre as tabelas foram criadas no modelo de dados do Power BI, uti
 
 Ao final do processo de ETL e modelagem, foram criados visuais simples para exemplificar a análise de dados. O relatório tem como objetivo apresentar informações relevantes para a tomada de decisões, como o número de funcionários por gerente e a distribuição de colaboradores por departamento e localização.
 
+O Relatório final pode ser acessado via Power BI Online Service através do link abaixo:
+[Desafio de Projeto - Azure Company - Módulo 03]([URL_do_link](https://app.powerbi.com/groups/me/reports/6d3954b5-2468-4f8e-b5ec-6c5415a5c207/176374f352259e24fcdb?experience=power-bi))
+
 ---
 
 ## 📂 Estrutura do Repositório
