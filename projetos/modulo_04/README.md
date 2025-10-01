@@ -8,7 +8,7 @@
 
 ## 1. Introdução
 
-Este documento detalha a implementação de um modelo de dados **Star Schema** para a análise das atribuições de docentes em uma instituição universitária. O projeto transforma um modelo relacional (ERD anexo) em um modelo dimensional, permitindo análises rápidas e intuitivas no Power BI.
+Este documento detalha a implementação de um modelo de dados **Star Schema** para a análise das atribuições de docentes em uma instituição universitária. O projeto transforma um modelo relacional em um modelo dimensional, permitindo análises rápidas e intuitivas no Power BI.
 
 O objetivo principal foi criar a **Tabela Fato** (`fato_professor`) e suas respectivas **Tabelas Dimensão**, simulando a realidade de um ambiente acadêmico com coerência lógica, incluindo restrições de tempo (como a data de contratação de um professor versus a data de início de uma disciplina).
 
