@@ -63,9 +63,8 @@ O `Stored Procedure` (`PopularFatoProfessor`) utiliza a função `GREATEST` do M
 GREATEST(p.data_contratacao, di.data_oferta_disciplina) + INTERVAL FLOOR(RAND() * 60) DAY AS data_inicio_disciplina
 ```
 
-* GREATEST(...): Retorna a data mais recente entre a contratação do professor e a oferta da disciplina, estabelecendo a data mínima permitida para o início da turma.
-
-* + INTERVAL FLOOR(RAND() * 60) DAY: Adiciona um número aleatório de dias (até 60) a essa data mínima, simulando o início real das atividades dentro de um prazo razoável.
+* **`GREATEST(...)`**: Retorna a data mais recente entre a contratação do professor e a oferta da disciplina, estabelecendo a data mínima de início.
+* **`+ INTERVAL FLOOR(RAND() * 60) DAY`**: Adiciona um número aleatório de dias (até 60) a essa data mínima, simulando o início real das atividades dentro de um prazo razoável.
 
 ---
 
@@ -107,15 +106,18 @@ Esta é a medida base para a contagem de todas as atribuições (cursos ministra
 
 ```dax
 Soma_Cursos = COUNT(fato_professor[idFato])
+```
 
 ### 5.2. Somatória Cumulativa (Cursos Acumulados)
 Esta medida utiliza a função de Time Intelligence (TOTALYTD) para calcular o número de cursos acumulado desde o início do ano até a data atual, o que é fundamental para o gráfico de área que totaliza os **200 registros** ao final do período.
 
+```dax
 Soma Cursos Acumulado = 
 TOTALYTD(
     COUNT(fato_professor[idFato]),
     'Tabela Data'[Date]
 )
+```
 
 ---
 
