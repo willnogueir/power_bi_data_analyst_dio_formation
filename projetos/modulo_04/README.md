@@ -61,6 +61,7 @@ O `Stored Procedure` (`PopularFatoProfessor`) utiliza a função `GREATEST` do M
 
 ```sql
 GREATEST(p.data_contratacao, di.data_oferta_disciplina) + INTERVAL FLOOR(RAND() * 60) DAY AS data_inicio_disciplina
+```
 
 * GREATEST(...): Retorna a data mais recente entre a contratação do professor e a oferta da disciplina, estabelecendo a data mínima permitida para o início da turma.
 
@@ -80,6 +81,7 @@ A tabela é gerada a partir da seguinte fórmula:
 
 ```dax
 Tabela Data = CALENDARAUTO()
+```
 
 ### 4.2. Colunas Essenciais
 
